@@ -48,5 +48,15 @@ div.nav .nav-title{
 }
 div.nav .nav-title a{
 	font-size:.6rem;
-	
+	color: #244692;
+}
+.nav-select{
+	background: #244692;
+}
+.nav-select a{
+	color: #fff!important;
+}
+.m-roll img{
+	width: 100%;
+	margin: 0 auto;
 }
