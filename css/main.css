@@ -4,7 +4,7 @@ body,html{font: 24px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
 address, cite, em, i { font-style: normal; } 
 small { font-size: 12px; } 
 li { list-style: none; }
-a { text-decoration: none; }
+a { text-decoration: none; color: #010100;}
 a:hover { text-decoration: none; }
 fieldset, img { border: 0; }
 button, input, select, textarea { font-size: 100%; line-height:normal; }
@@ -29,4 +29,24 @@ header img{
 header span{
 	font-size: .7rem;
 	float: right;
+}
+section.m-top{
+	width: 100%;
+}
+div.nav{
+	width: 52%;
+	height: 40px;
+	margin: 1rem auto 0;
+}
+div.nav .nav-title{
+	padding: 0.3rem .5rem;
+	float: left;
+	border: 2px solid #244692;
+	border-radius: 5px;
+	width: 50%;
+	text-align: center;
+}
+div.nav .nav-title a{
+	font-size:.6rem;
+	
 }
