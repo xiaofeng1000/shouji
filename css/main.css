@@ -1,5 +1,6 @@
 *{padding: 0;margin: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}
-body,button, input, select, textarea {font: 12px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
+
+body,html{font: 24px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
 address, cite, em, i { font-style: normal; } 
 small { font-size: 12px; } 
 li { list-style: none; }
@@ -17,9 +18,15 @@ iframe{display:block;}
 	width: 100%;
 	margin: 0 auto;
 }
+header{
+	height: 40px;
+	line-height: 45px;
+	padding: 5px 0.2rem;
+}
 header img{
 	float: left;
 }
 header span{
+	font-size: .7rem;
 	float: right;
 }
