@@ -56,6 +56,7 @@ div.nav .nav-title a{
 .nav-select a{
 	color: #fff!important;
 }
+
 .m-roll img{
 	width: 100%;
 	margin: 0 auto;
@@ -86,14 +87,25 @@ div.nav .nav-title a{
 .m-model,.m-off{
 	padding: 10px 0;
 }
+.m-model ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
 .m-model li{
-	float: left;
-	border-radius: 5px;
-	border: 2px solid #244692;
-	width: 4.7777rem;
-	padding: 16px 5px;
-	text-align: center;
-	margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #244692;
+    width: 30.9%;
+    padding: 16px 0;
+    text-align: center;
+    margin-left: 1.6%;
+    margin-bottom: 2%;
 }
 .m-model li a{
 	font-size: 0.6rem;
@@ -126,7 +138,7 @@ footer{
 	padding: 3rem 10px 55px 10px;
 }
 footer p{
-	font-size: 0.3333rem;
+	font-size: 0.4444rem;
 }
 .m-footer{
 	position: fixed;
