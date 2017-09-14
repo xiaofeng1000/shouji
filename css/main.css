@@ -83,7 +83,7 @@ div.nav .nav-title a{
 .brand-select{
 	color: #244692;
 }
-.m-model{
+.m-model,.m-off{
 	padding: 10px 0;
 }
 .m-model li{
@@ -97,4 +97,54 @@ div.nav .nav-title a{
 }
 .m-model li a{
 	font-size: 0.6rem;
+}
+.m-off ul li{
+	float: left;
+	width: 50%;
+	padding: 5px;
+
+}
+.m-off ul li img{
+	width: 98%;
+}
+.m-adout ul li{
+	border-bottom: 1px solid #dcdcdc;
+	padding: 6px 10px 6px 6px;
+	line-height: 0.7rem;
+}
+.m-adout ul{
+	margin-top: 0.5rem;
+}
+.m-adout ul li a{
+	font-size: 0.7rem;	
+}
+.m-adout ul li i{
+	float: right;
+}
+footer{
+	text-align: center;
+	padding: 3rem 10px 55px 10px;
+}
+footer p{
+	font-size: 0.3333rem;
+}
+.m-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.m-footer div{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 10px 0;
+}
+.m-footer div a{
+	color: #fff;
+}
+.m-footer div:first-child{
+	background: #4fccd4;
+}
+.m-footer div:last-child{
+	background: #244692;
 }
