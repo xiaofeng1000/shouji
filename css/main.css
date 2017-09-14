@@ -60,3 +60,23 @@ div.nav .nav-title a{
 	width: 100%;
 	margin: 0 auto;
 }
+.m-brand,.m-model,.m-off{
+	border-bottom: 5px solid #e5e5e5;
+}
+.m-brand >ul li{
+	width:16.666667%;
+	float: left;
+	text-align: center;
+	margin-top: 2px;
+	line-height: 20px;
+}
+.m-brand >ul li a{
+	font-size: .7rem;
+}
+.m-ioc i{
+
+	float: right;
+}
+.m-brand{
+	padding: .4rem .5rem;
+}
