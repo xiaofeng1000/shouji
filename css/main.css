@@ -80,3 +80,21 @@ div.nav .nav-title a{
 .m-brand{
 	padding: .4rem .5rem;
 }
+.brand-select{
+	color: #244692;
+}
+.m-model{
+	padding: 10px 0;
+}
+.m-model li{
+	float: left;
+	border-radius: 5px;
+	border: 2px solid #244692;
+	width: 4.7777rem;
+	padding: 16px 5px;
+	text-align: center;
+	margin: 5px;
+}
+.m-model li a{
+	font-size: 0.6rem;
+}
