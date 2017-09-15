@@ -74,6 +74,8 @@ div.nav .nav-title a{
 	text-align: center;
 	margin-top: 2px;
 	line-height: 20px;
+}
+.m-brand >ul li a{
 	font-size: .7rem;
 }
 .m-ioc i{
@@ -162,3 +164,150 @@ footer p{
 .m-footer div:last-child{
 	background: #244692;
 }
+/**********phone type start***************/
+.fault-head,.phoneType-head{
+	text-align: center;
+	font-size: .8rem;
+	padding: .5rem;
+	color: #244692;
+}
+.phoneType-head >a,.fault-head >a{
+	float: left;
+	color: inherit;
+}
+.phoneType-seek input{
+	text-align: center;
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+	border: none;
+	background: #e5e5e5;
+	border-radius: 4px;
+	font-size: .8rem;
+	padding: .2rem;
+}
+.phoneType-seek input:focus{
+	border: none;
+	outline: none;
+}
+.m-model h2{
+	text-align: center;
+	padding: 1rem;
+	font-size: .8rem;
+}
+.phoneType-model{
+	border: none;
+}
+/**********phone type end**************/
+/**********phone fault start**************/
+.m-big,.fault-big,.phoneType-big{
+	background: #fef9ff;
+}
+.fault-top{
+	border-bottom: 5px solid #e5e5e5;
+	border-top: 5px solid #e5e5e5;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;   
+}
+.fault-top-l,.fault-top-r{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding: 1.5rem;
+}
+.fault-top-r{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+    -webkit-align-items: center;  
+    align-items: center; 
+}
+.fault-top-r h2{
+	font-size: .8rem;
+}
+.fault-top-r p{
+	color: #244692;
+	font-size: .7rem;
+}
+.fault-top-l{
+
+}
+.fault-top-l img{
+	width: 70%;
+}
+.fault-info{
+	padding-bottom: 50px;
+}
+ul.fault-info-color{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+    -webkit-align-items: center;
+    margin: 1.5rem 0;
+}
+ul.fault-info-color li{
+	width: 21%;
+	text-align: center;
+	border: #a0a0a0 solid 2px;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	padding: .5rem;
+	margin: .3rem 2%;
+	background: #fff;
+}
+.info-select{
+	border: #244692 solid 2px!important;
+	color: #244692;
+}
+.fault-info-mes >li{
+	font-size: .8rem;
+	padding: 0 .3rem;
+	line-height: .8rem;
+	margin: 1rem 0;
+}
+.fault-info-mes >li >i{
+	float: right;
+	line-height: .8rem;
+}
+.fault-info-mes-tow{
+	margin-top: 1rem;
+}   
+.fault-info-mes-tow >li{
+	border: 2px solid #a0a0a0;
+	margin: .3rem 0;
+	padding: .3rem .3rem .3rem 3px;
+	background: #fdfdff;
+}
+.fault-info-mes-tow >li span{
+	float: right;
+}
+.info-tow-select{
+	border-color: #244692!important;
+}
+.fault-info-mes-tow{
+	display: none;
+}
+.fault-foot >div{
+	text-align: center;
+}
+.fault-foot{
+	border: #244692 solid 2px;
+}
+.fault-m{
+	background: #fff!important;
+
+}
+/**********phone fault end**************/

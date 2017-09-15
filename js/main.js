@@ -6,4 +6,7 @@ $(function(){
 	$('li.m-ioc').click(function(){
 		_mIoc.toggle(500);
 	})
+	$('.fault-info-mes >li').click(function(i){
+		$('.fault-info-mes >li').eq($(this).index()).find('ul.fault-info-mes-tow').slideToggle(500);
+	})
 });
