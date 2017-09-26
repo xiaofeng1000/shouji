@@ -7,9 +7,9 @@ $(function(){
 		_mIoc.slideToggle(500);
 	})
 	
-	$('.fault-info-mes >li').click(function(event){
-		event.stopPropagation();
-		$('.fault-info-mes >li').eq($(this).index()).find('ul.fault-info-mes-tow').slideToggle(500);
+	$('.fault-info-mes >div').click(function(){
+		
+		$(this).next('ul.fault-info-mes-tow').slideToggle(500);
 
 	})
 });
