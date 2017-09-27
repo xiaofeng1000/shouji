@@ -344,15 +344,15 @@ ul.fault-info-color li{
 .service-info li label,.service-info li input{
 	display: inline-block;
 	font-size: 14px;
-	margin-left: 0.8rem;
 }
 .service-info li label{
-	
+	margin-left: 0.8rem;
 }
 .service-info li input{
 	background: inherit;
 	border: none;
 	font-size: 14px;
+	margin-left: 8px;
 }
 .service-info li input:focus,
 .service-text:focus{
