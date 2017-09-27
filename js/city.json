@@ -1,0 +1,145 @@
+{
+	"province":[
+		{
+			"provinceid" : 1,
+			"provincename" : "北京市"	
+		},
+		{
+			"provinceid" : 2,
+			"provincename" : "天津市"	
+		},
+		{
+			"provinceid" : 3,
+			"provincename" : "江苏省"	
+		}
+	],
+	"city":[
+		{
+			"cityid" : 1,
+			"cityname":"北京市",
+			"citybool" : 1
+		},
+		{
+			"cityid" : 2,
+			"cityname":"天津市",
+			"citybool" : 2
+		},
+		{
+			"cityid" : 3,
+			"cityname":"南京市",
+			"citybool" : 3
+		},
+		{
+			"cityid" : 4,
+			"cityname":"无锡市",
+			"citybool" : 3
+		},
+		{
+			"cityid" : 5,
+			"cityname":"苏州市",
+			"citybool" : 3
+		}
+	],
+	"county":[
+		{
+			"countyid" : 1,
+			"countyname":"朝阳区",
+			"countybool" : 1
+		},
+		{
+			"countyid" : 2,
+			"countyname":"海淀区",
+			"countybool" : 1
+		},
+		{
+			"countyid" : 3,
+			"countyname":"东城区",
+			"countybool" : 1
+		},
+		{
+			"countyid" : 4,
+			"countyname":"和平区",
+			"countybool" : 2
+		},
+		{
+			"countyid" : 5,
+			"countyname":"河东区",
+			"countybool" : 2
+		},
+		{
+			"countyid" : 6,
+			"countyname":"河西区",
+			"countybool" : 2
+		},
+		{
+			"countyid" : 7,
+			"countyname":"玄武区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 8,
+			"countyname":"白下区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 9,
+			"countyname":"秦淮区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 10,
+			"countyname":"白下区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 11,
+			"countyname":"秦淮区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 12,
+			"countyname":"建邺区",
+			"countybool" : 3
+		},
+		{
+			"countyid" : 13,
+			"countyname":"崇安区",
+			"countybool" : 4
+		},
+		{
+			"countyid" : 14,
+			"countyname":"南长区",
+			"countybool" : 4
+		},
+		{
+			"countyid" : 15,
+			"countyname":"北塘区",
+			"countybool" : 4
+		},
+		{
+			"countyid" : 16,
+			"countyname":"锡山区",
+			"countybool" : 4
+		},
+		{
+			"countyid" : 17,
+			"countyname":"姑苏区",
+			"countybool" : 5
+		},
+		{
+			"countyid" : 18,
+			"countyname":"虎丘区",
+			"countybool" : 5
+		},
+		{
+			"countyid" : 19,
+			"countyname":"吴中区",
+			"countybool" : 5
+		},
+		{
+			"countyid" : 20,
+			"countyname":"工业园区",
+			"countybool" : 5
+		}	
+	]
+}
