@@ -318,8 +318,11 @@ ul.fault-info-color li{
 /**********phone fault end**************/
 /**********service function start**************/
 .service-function-menu{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 	border-top: 5px solid #e5e5e5; 
 
 }
@@ -386,6 +389,72 @@ ul.fault-info-color li{
 	font-size: 0.7rem;
 	color: #244692;
 }
+.city{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: #fff;
+}
+.city-top{
+	text-align: center;
+	background: #244692;
+	font-size: 0.7rem;
+	padding: 8px 0;
+	color: #fff;
+}
+.city-top span{
+	margin-left: 20px;
+	display: block;
+	text-align: left;
+	float: left;
+}
+.city-select{
+	font-size: 0.7rem;
+	padding: 12px 0;
+}
+.city-select span{
+	margin-left: 16px;
+	display: block;
+	text-align: left;
+	float: left;
+}
+.city-select p{
+	margin-left:4rem;
+	color: #244692;
+}
+.city-region{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	border-bottom: 1px #bfbfbf solid;
+	border-top: 1px #bfbfbf solid;
+	padding: 10px 0;
+}
+.city-region li,.city-region-info li{
+	font-size: 0.8rem;
+	text-align: center;
+}
+.city-region-info{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	padding: 2px 0;
+}
+.city-region-info li{
+	padding: 4px 2px;
 
- 
+}
+.city-the{
+	background: #244692;
+	border-radius: 5px;
+	color: #fff;
+}
+.city-c,.city-qx{
+	visibility:hidden;
+}
 /**********service function end**************/

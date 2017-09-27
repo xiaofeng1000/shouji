@@ -12,4 +12,10 @@ $(function(){
 		$(this).next('ul.fault-info-mes-tow').slideToggle(500);
 
 	})
+	$('.address').click(function(){
+		$('.city').show();
+	});
+	$('.city-top >span').click(function(){
+		$('.city').hide();
+	})
 });
