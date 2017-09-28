@@ -470,4 +470,30 @@ ul.fault-info-color li{
 	border: none;
 	outline: none;
 }
+.mailAddress{
+	font-size: 0.7rem;
+	padding: 10px;
+	background: #ccc;
+	border: 2px solid #a8a9aa;
+}
+.returnAddress{
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	margin-top: 10px;
+	padding: 5px 0;
+}
+.returnAddress p{
+	font-size: 0.6rem;
+    margin-left: 20px;
+    float: left;
+}
+.returnAddress select{
+	font-size: .6rem; 
+	background: initial;
+	border: none;
+	outline: none;
+}
+.returnAddress >#address-province{
+	margin-left: 10px; 
+}
 /**********service function end**************/
