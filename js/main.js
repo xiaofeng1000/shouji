@@ -109,6 +109,7 @@ $.region = function(){
 			var leveThreeTitle = $(this).text();
 			$('.address').text(Title+'-'+leveThreeTitle);
 			$('.city').hide();
+			$('.service-function-big').show();
 			$('.city-select').find('p').empty();
 			$('.city-c,.city-qx').empty();
 		});
