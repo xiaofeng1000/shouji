@@ -12,10 +12,12 @@ $(function(){
 	})	
 	$('.address').click(function(){
 		$('.city').show();
+		$('.service-function-big').hide();
 		$.region();
 	});
 	$('.city-top >span').click(function(){
 		$('.city').hide();
+		$('.service-function-big').show();
 	})
 	$('#next').click(function(){
 		if ($('#name').val() == '') {
