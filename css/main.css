@@ -420,8 +420,9 @@ ul.fault-info-color li{
 	float: left;
 }
 .city-select p{
-	margin-left:4rem;
+	margin-left:1rem;
 	color: #244692;
+	float: left;
 }
 .city-region{
 	display: -webkit-box;
@@ -431,7 +432,8 @@ ul.fault-info-color li{
 	    justify-content: space-around;
 	border-bottom: 1px #bfbfbf solid;
 	border-top: 1px #bfbfbf solid;
-	padding: 10px 0;
+	clear: both;
+	margin-top: 22px;
 }
 .city-region li,.city-region-info li{
 	font-size: 0.8rem;
@@ -456,5 +458,16 @@ ul.fault-info-color li{
 }
 .city-c,.city-qx{
 	visibility:hidden;
+}
+.city-region-info ul{
+	width: 33.3333%
+}
+#branch{
+	font-size: .7rem;
+	float: right;
+	margin-right: 10px;
+	background: initial;
+	border: none;
+	outline: none;
 }
 /**********service function end**************/
