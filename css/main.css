@@ -495,8 +495,9 @@ ul.fault-info-color li{
 	color: #244692;
 	margin-top: -4px;
 	vertical-align:middle;
+	margin-left: 20px; 
 }
 .returnAddress >#address-province{
-	margin-left: 20px; 
+	
 }
 /**********service function end**************/
