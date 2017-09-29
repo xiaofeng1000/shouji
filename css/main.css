@@ -469,6 +469,8 @@ ul.fault-info-color li{
 	background: initial;
 	border: none;
 	outline: none;
+	-webkit-appearance: none;
+	vertical-align:middle;
 }
 .mailAddress{
 	font-size: 0.7rem;
@@ -495,7 +497,12 @@ ul.fault-info-color li{
 	color: #244692;
 	margin-top: -4px;
 	vertical-align:middle;
-	margin-left: 20px; 
+	margin-left: 20px;
+	-webkit-appearance: none;
+	background: url(../images/arrow.png) no-repeat;
+	background-position: 100% center;
+    width: 18%;
+    background-size: 25%;
 }
 .returnAddress >#address-province{
 	
