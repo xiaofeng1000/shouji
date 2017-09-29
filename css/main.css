@@ -473,7 +473,7 @@ ul.fault-info-color li{
 	vertical-align:middle;
 	background: url(../images/arrow.png) no-repeat;
 	background-position: 99% center;
-    width: 24%;
+    width: 28%;
     background-size: 18%;
 }
 .mailAddress{
@@ -506,7 +506,7 @@ ul.fault-info-color li{
 	background: url(../images/arrow.png) no-repeat;
 	background-position: 100% center;
     width: 18%;
-    background-size: 18	%;
+    background-size: 18%;
 }
 .returnAddress >#address-province{
 	

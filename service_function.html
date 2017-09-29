@@ -13,7 +13,8 @@
 	<link href="css/js-image-slider.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/js-image-slider.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/main.js"></script>             
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/city.js"></script>            
 </head>
 <body>
 	<div class="service-function-big">
@@ -48,10 +49,10 @@
 			<li>
 				<label>维修网点</label>
 				<select id="branch">
-					<option>北京分部</option>
-					<option>石家庄分部</option>
-					<option>上海分部</option>
-					<option>天津分部</option>
+					<option value="1">北京分部</option>
+					<option value="2">石家庄分部</option>
+					<option value="3">上海分部</option>
+					<option value="4">天津分部</option>
 				</select>
 			</li>
 		</ul>
@@ -60,21 +61,18 @@
 		</div>
 		<div class="returnAddress">
 			<p>回寄地址</p>
-			<select id="address-province">
-				<option>北京市</option>
-				<option>河北省</option>
-				<option>河南省</option>
-			</select>
-			<select id="address-city">
-				<option>北京市</option>
-				<option>石家庄市</option>
-				<option>xxx市</option>
-			</select>
-			<select id="address-county">
-				<option>朝阳区</option>
-				<option>xxx区</option>
-				<option>xxx县</option>
-			</select>
+			<!-- <select id="address-province"></select> -->
+			<select id="province" name="province" onchange="doProvAndCityRelation();">
+  　　　　　　　　<option id="choosePro" value="-1">省份</option>
+  　　　　　</select>
+  			<select id="citys" name="city" onchange="doCityAndCountyRelation();">
+ 　　　　　　　　<option id='chooseCity' value='-1'>城市</option>
+ 　　　　　　</select>
+ 			<select id="county" name="county">
+ 　　　　　　　　<option id='chooseCounty' value='-1'>区/县</option>
+　　　　　　</select>
+			<!-- <select id="address-city"></select>
+			<select id="address-county"></select> -->
 		</div>
 		<div>
 			<textarea placeholder="请填写详细地址信息,不少于5个字符" class="service-text" type="text" id="textaddress"></textarea>

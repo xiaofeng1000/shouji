@@ -18,7 +18,7 @@ $(function(){
 	$('.city-top >span').click(function(){
 		$('.city').hide();
 		$('.service-function-big').show();
-	})
+	});
 	$('#next').click(function(){
 		if ($('#name').val() == '') {
 			alert('请填写名字');return false;
@@ -38,6 +38,21 @@ $(function(){
 		}else if($('#textaddress').val().length < 5){
 			alert('详细地址太少');return false;
 		}
+	});
+	$('#branch').click(function(){
+		var id = $(this).val();
+		$.ajax({
+			type:'GET',
+			dataType: 'json',
+			url:'js/branch.json',
+			success: function(data){
+				$.each(data.branch,function(i,n){
+					if (n.id == id) {
+						$('.mailAddress').text(n.nameCon);
+					}
+				});
+  			}
+		});
 	});
 });
 
