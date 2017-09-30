@@ -474,7 +474,7 @@ ul.fault-info-color li{
 	background: url(../images/arrow.png) no-repeat;
 	background-position: 99% center;
     width: 28%;
-    background-size: 18%;
+    background-size: 12px 6px;
 }
 .mailAddress{
 	font-size: 0.7rem;
@@ -506,9 +506,11 @@ ul.fault-info-color li{
 	background: url(../images/arrow.png) no-repeat;
 	background-position: 100% center;
     width: 18%;
-    background-size: 18%;
+    background-size: 12px 6px;
 }
-.returnAddress >#address-province{
-	
+.branch-box,
+.mailAddress-box,
+.returnAddress-box{
+	display: none;
 }
 /**********service function end**************/

@@ -19,26 +19,7 @@ $(function(){
 		$('.city').hide();
 		$('.service-function-big').show();
 	});
-	$('#next').click(function(){
-		if ($('#name').val() == '') {
-			alert('请填写名字');return false;
-		}else if ($('#name').val().length > 10 ) {
-			alert('名称不能超过10个字符');return false;
-		}
-		if($('#tel').val() == ''){
-			alert('请填写手机号');return false;
-		}else if(!/^1[34578]\d{9}$/.test($('#tel').val())){
-			alert('手机号不正确');return false;
-		}
-		if($('#city').text() == '请选择城市'){
-		 	alert('请选择地址');return false;
-		 }
-		 if ($('#textaddress').val() == '') {
-			alert('请填写详细地址');return false;
-		}else if($('#textaddress').val().length < 5){
-			alert('详细地址太少');return false;
-		}
-	});
+	
 	$('#branch').click(function(){
 		var id = $(this).val();
 		$.ajax({

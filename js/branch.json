@@ -3,22 +3,22 @@
 				{
 					"id" : 1,
 					"name" : "北京分部",
-					"nameCon" : "邮寄地址：北京朝阳区工体北路三里屯SOHO2号商场地下1楼B1-252 手机号：18515559955"
+					"nameCon" : "地址：北京朝阳区工体北路三里屯SOHO2号商场地下1楼B1-252 手机号：18515559955"
 				},
 				{
 					"id" : 2,
 					"name" : "天津分部",
-					"nameCon" : "邮寄地址：天津xxxxxxxxxxxxxx 手机号：18515559955"
+					"nameCon" : "地址：天津xxxxxxxxxxxxxx 手机号：18515559955"
 				},
 				{
 					"id" : 3,
 					"name" : "石家庄分部",
-					"nameCon" : "邮寄地址：石家庄xxxxxxxxxxxxxxx 手机号：18515559955"
+					"nameCon" : "地址：石家庄xxxxxxxxxxxxxxx 手机号：18515559955"
 				},
 				{
 					"id" : 4,
 					"name" : "上海分部",
-					"nameCon" : "邮寄地址：上海xxxxxxxxxxxxxxxxxxxx 手机号：18515559955"
+					"nameCon" : "地址：上海xxxxxxxxxxxxxxxxxxxx 手机号：18515559955"
 				}
 			]
 }

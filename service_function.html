@@ -42,26 +42,25 @@
 				<label for="tel">电话号码</label>
 				<input type="text" name="" value="" id="tel">
 			</li>
-			<li>
+			<li class="address-box">
 				<label>上门地址</label>
 				<p class="address" id="city">请选择城市</p>
 			</li>
-			<li>
+			<li class="branch-box">
 				<label>维修网点</label>
 				<select id="branch">
 					<option value="1">北京分部</option>
-					<option value="2">石家庄分部</option>
-					<option value="3">上海分部</option>
-					<option value="4">天津分部</option>
+					<option value="2">天津分部</option>
+					<option value="3">石家庄分部</option>
+					<option value="4">上海分部</option>
 				</select>
 			</li>
 		</ul>
-		<div class="mailAddress">
-			邮寄地址：北京朝阳区工体北路三里屯SOHO2号商场地下1楼B1-252 手机号：18515559955
+		<div class="mailAddress mailAddress-box">
+			地址：北京朝阳区工体北路三里屯SOHO2号商场地下1楼B1-252 手机号：18515559955
 		</div>
-		<div class="returnAddress">
+		<div class="returnAddress returnAddress-box">
 			<p>回寄地址</p>
-			<!-- <select id="address-province"></select> -->
 			<select id="province" name="province" onchange="doProvAndCityRelation();">
   　　　　　　　　<option id="choosePro" value="-1">省份</option>
   　　　　　</select>
@@ -71,13 +70,11 @@
  			<select id="county" name="county">
  　　　　　　　　<option id='chooseCounty' value='-1'>区/县</option>
 　　　　　　</select>
-			<!-- <select id="address-city"></select>
-			<select id="address-county"></select> -->
 		</div>
 		<div>
 			<textarea placeholder="请填写详细地址信息,不少于5个字符" class="service-text" type="text" id="textaddress"></textarea>
 		</div>
-		<button type="button" class="service-next" id="next">下一步</button>
+		<button type="button" class="service-next" id="next" onclick="next(1)">下一步</button>
 	</div>
 	<div class="city" style="display: none;">
 		<div class="city-top"><span>取消</span>请选择地址</div>
