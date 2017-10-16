@@ -105,42 +105,67 @@
 			</select>
 		</div>
 		<div class="cell-order-member">
-			<select>
-				<option>上门维修</option>
-				<option>邮寄维修</option>
-				<option>到店维修</option>
+			<select id="cell-function">
+				<option value="1">上门维修</option>
+				<option value="2">邮寄维修</option>
+				<option value="3">到店维修</option>
 			</select>
 		</div>
 		<div class="cell-order-member cell-pa">
 			<label for="">姓名</label>
-			<input type="text" name="" value="">
+			<input type="text" name="name" value="" id="name">
 		</div>
 		<div class="cell-order-member cell-pa">
 			<label for="">手机</label>
-			<input type="text" name="" value="">
+			<input type="text" name="tel" value="" id="tel">
 		</div>
-		<div class="cell-order-address">
-			<div class="order-add-0">
-				<select>
-					<option>北京市</option>
-					<option>天津市</option>
-				</select>
-			</div>
-			<div class="order-add-1">
-				<select>
-					<option>北京市</option>
-					<option>天津市</option>
-				</select>
-			</div>
-			<div class="order-add-1">
-				<select>
-					<option>xxx区</option>
-					<option>xxxx县</option> 
+		<div class="cell-order-member cell-branch">
+			<select id="cell-address-branch">
+				<option value="1">北京分部</option>
+				<option value="2">天津分部</option>
+				<option value="3">石家庄分部</option>
+				<option value="4">上海分部</option>
 			</select>
+		</div>
+		<div class="cell-order-text">
+			地址:北京市海淀区知春路甲108号豪景大厦A座606室
+		</div>
+		<div class="cell-order-address cell-order-portion">
+			<div class="order-add-0">
+				<select id="cell-province">
+					<option value="0">请选择</option>
+				</select>
+			</div>
+			<div class="order-add-1">
+				<select id="cell-city">
+					<option>请选择</option>
+				</select>
+			</div>
+			<div class="order-add-1">
+				<select id="cell-county">
+					<option>请选择</option>
+				</select>
+			</div>
+		</div>
+		<div class="cell-order-address cell-order-all">
+			<div class="order-add-0">
+				<select id="province" name="province" onchange="doProvAndCityRelation();">
+  　　　　　		<option id="choosePro" value="-1">请选择</option>
+  　　　　　	</select>	
+			</div>
+			<div class="order-add-1">
+				<select id="citys" name="city" onchange="doCityAndCountyRelation();">
+ 　　　　　 		<option id='chooseCity' value='-1'>请选择</option>
+ 　　　　　 	</select>
+			</div>
+			<div class="order-add-1">
+				<select id="county" name="county">
+		　　　　　	<option id='chooseCounty' value='-1'>请选择</option>
+		　　　　</select>
 			</div>
 		</div>
 		<div class="cell-order-member cell-pa">
-			<textarea placeholder="请填写详细地址信息"></textarea>
+			<textarea placeholder="请填写详细地址信息" id="cell-text"></textarea>
 		</div>
 		<div class="cell-order-member cell-pa">
 			<label for="">IMEI码(选填)</label>

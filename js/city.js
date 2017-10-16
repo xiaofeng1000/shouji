@@ -8,7 +8,6 @@ $(function() {
   $('.service2').on('click',service2);
   $('.service1').on('click',service1);
   $('.service3').on('click',service3);
-
 });
 function service1(){
     $('.service1').find('img').attr('src','images/service1_select.png');
@@ -160,7 +159,7 @@ function next(id){
       }
     }
     
-     if ($('#textaddress').val() == '') {
+     if ($('#textaddress').val().trim() == '') {
       alert('请填写详细地址');return false;
     }else if($('#textaddress').val().length < 5){
       alert('详细地址太少');return false;

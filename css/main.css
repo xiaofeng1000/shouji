@@ -828,7 +828,19 @@ p.link{
 	background:inherit;
 	border: none;
 	padding: 4px;
-	width: 100%;
+	width: 100%;	
+}
+.cell-order-text{
+	width: 92%;
+    margin: 15px auto;
+    background: #569c9c;
+    font-size: 0.7rem;
+    padding: 10px;
+}
+.cell-branch,
+.cell-order-text,
+.cell-order-all{
+	display: none;
 }
 .cell-order-member textarea{
 	width: 100%;
