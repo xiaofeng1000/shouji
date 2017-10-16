@@ -821,13 +821,13 @@ p.link{
 .order-add-0,
 .order-add-1{
 	font-size: .7rem;
-	padding: 4px;
 	width: 30%;
 	text-align: center;
 }
 .cell-order-address select{
 	background:inherit;
 	border: none;
+	padding: 4px;
 }
 .cell-order-member textarea{
 	width: 100%;
