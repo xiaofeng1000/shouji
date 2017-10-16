@@ -779,6 +779,9 @@ p.link{
 	width: 92%;
 	margin: 15px auto;
 	background: #244692;
+	
+}
+.cell-pa{
 	padding: 10px;
 }
 .cell-order-member select{
@@ -786,6 +789,7 @@ p.link{
 	border: none;
 	width: 100%;
 	font-size: 0.7rem;
+	padding: 10px;
 }
 .cell-order-member select:focus,
 .cell-order-member input:focus,
