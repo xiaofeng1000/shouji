@@ -1,16 +1,11 @@
 
 $(function(){
-	// var win=$(".win");
 	
 	var float=$(".float");
 	var divs=$(".box div");
-	var num1=0;  //ǰݵ±
+	var num1=0;
 	var num2=0;
-	// win.hover(function(){
-	// 	$(".leftB,.rightB").css("display","block");
-	// },function(){
-	// 	$(".leftB,.rightB").css("display","none");
-	// });
+	
 	$(".leftB").click(function(){
 		divs.finish();
 		float.stop(true);
@@ -37,7 +32,6 @@ $(function(){
 		
 	});
 	$('.select-input').click(function(){
-		alert($('#select-checkbox').is(':checked'));
 		if ($(this).hasClass('on')) {
 			$(this).removeClass('on').addClass('off');
 		}else{
@@ -45,5 +39,15 @@ $(function(){
 		}
 	
 	});
-	
+	$('.cell-footer').find('b').text($('#cell-model').val());
+	$('#cell-model').change(function(){
+		$('.cell-footer').find('b').text($(this).val());
+	});
+	$('#cell-submit').click(function(){
+		if ($('#select-checkbox').is(':checked')) {
+			alert('提交成功');
+		}else{
+			alert('请仔细阅读手机服务条款');
+		}
+	});
 })

@@ -98,12 +98,10 @@
 	<h2 class="cell-h2">预约下单</h2>
 	<div class="cell-order">
 		<div class="cell-order-member">
-			<select>
-				<option>iphone 7</option>
-				<option>iphone 7</option>
-				<option>iphone 7</option>
-				<option>iphone 7</option>
-				<option>iphone 7</option>
+			<select id="cell-model">
+				<option value="100">iphone 7</option>
+				<option value="200">iphone 8</option>
+				<option value="300">iphone 9</option>
 			</select>
 		</div>
 		<div class="cell-order-member">
@@ -156,8 +154,8 @@
 		<p>我同意 <a href="help.html">《服务条款》</a></p>
 	</div>
 	<div class="cell-footer clearfix">
-		<div class="cell-footer-l"><a href="tel:10086"><img src="images/13.png"></a>客服 <span>￥<b>1000</b></span></div>
-		<div class="cell-footer-r">提交订单</div>
+		<div class="cell-footer-l"><a href="tel:10086"><img src="images/13.png"></a>客服 <span>￥<b></b></span></div>
+		<div class="cell-footer-r" id="cell-submit">提交订单</div>
 	</div>
 </body>
 </html>
