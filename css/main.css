@@ -1,5 +1,5 @@
 *{padding: 0;margin: 0;-webkit-box-sizing: border-box;box-sizing: border-box;}
-body,html{font: 24px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;}
+body,html{font: 24px/24px Arial, 'Microsoft Yahei',"宋体", sans-serif;background: #fef9ff;}
 address, cite, em, i { font-style: normal; } 
 small { font-size: 12px; } 
 li { list-style: none; }
@@ -12,7 +12,24 @@ input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}
 iframe{display:block;}
 .clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 .clearfix {zoom:1;}
+/**
+ *@public 			//公共样式
 
+ *@phone type 		//全部手机机型样式
+
+ *@phone fault  	//手机故障信息样式
+
+ *@service function //手机维修方式样式
+
+ *@order 			//订单详情样式
+
+ *@succeed  		//订单成功样式
+
+ *@orderinfo 		//查询订单样式
+
+ *@cell   			//更换手机电池页面
+
+ */
 /*****public start*****/
 .m-big,.fault-big,
 .phoneType-big,
@@ -172,7 +189,8 @@ footer p{
 	background: #244692;
 }
 /**********phone type start***************/
-.fault-head,.phoneType-head{
+.fault-head,
+.phoneType-head{
 	text-align: center;
 	font-size: .8rem;
 	padding: .5rem;
@@ -310,6 +328,7 @@ ul.fault-info-color li{
 }
 .fault-foot{
 	border: #244692 solid 2px;
+	font-size: 0.8rem;
 }
 .fault-m{
 	background: #fff!important;
@@ -322,7 +341,7 @@ ul.fault-info-color li{
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: distribute;
-	    justify-content: space-around;
+	    justify-content: space-around;·
 	border-top: 5px solid #e5e5e5; 
 
 }
@@ -514,3 +533,371 @@ ul.fault-info-color li{
 	display: none;
 }
 /**********service function end**************/
+/**********order start********************/
+.order-box{
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+.order-box em{
+	float: right;
+
+}
+
+.order-box li{
+	margin: 0.5rem 0;
+	font-size: 0.7rem;
+}
+.order-box li span{
+	color: #afaeb0;
+	font-weight: 
+}
+
+.order-box li p{
+	text-indent: 2em;
+	margin-top: 10px;
+	
+}
+.order-con .fault-info-mes-tow{
+	display: block;
+	margin: 0 10px;
+	font-size: 0.7rem; 
+}
+/**********order end********************/
+/**********succeed start********************/
+.succeed-img,
+.succeed-big p{
+	text-align: center;
+}
+p.succeed-title{
+	font-size: 0.7rem!important;
+	margin: 1rem 0 1rem 0;
+	color: #244692;
+}
+.succeed-big >p{
+	font-size: 0.5rem;
+}
+#succeed-big{
+	background: #fef9ff;
+}
+
+.succeed-footer{
+	position: absolute;
+	bottom: 10px;
+	font-size: 0.6rem;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+}
+.succeed-footer a{
+	color: #244692;
+}
+
+/**********succeed end********************/
+/**********adout start********************/
+p.adout-title{
+	text-align: center;
+	font-size: 0.7rem;
+	color: #244692;
+	margin-bottom: 10px;
+}
+ul.adout-title-tow{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.adout-top a{
+	color: #244692;
+}
+.adout-top{
+	margin-top: 10px;
+	margin-left: 16px;
+}
+.adout-top a,
+.adout-title-tow{
+	font-size: 0.7rem;
+}
+.adoutT-select{
+	border-bottom: 2px solid #244692;
+}
+.adout-content h3{
+	color: #244692;
+	margin: 22px 0 18px 15px;
+	font-size: 0.8rem;
+}
+.adout-content >li{
+	padding: 10px;
+}
+.adout-content p{
+	font-size: 0.7rem;
+}
+/**********adout end********************/
+/**********orderinfo start********************/
+.orderinfo-box{
+	background: #244692;
+	color: #fff;
+	font-size: 0.7rem;
+	padding: 10px;
+	margin-top: 10px;
+}
+span.orderinfo-button{
+	border: #fff solid 1px;
+	padding: 5px 8px 5px 8px;
+	float: right;
+	border-radius: 4px;
+}
+.orderinfo-time,
+.orderinfo-info{
+	float: left;
+}
+.orderinfo-price{
+	float: right;
+	margin-right: 10px;	
+}
+.orderinfo-info-box{
+	margin-top: 10px;
+}
+.orderinfo-info img{
+
+	width: 2.4rem;
+    float: left;
+}
+.orderinfo-mes{
+	width: 60%;
+	float: left;
+	margin-left: 10px;
+}
+p.link{
+	font-size: .6rem;
+	margin-left: 10px;
+    margin-top: 10px;
+    color: #244692;
+}
+/**********orderinfo end********************/
+/**********cell start********************/
+.cell-banner img{
+	width: 100%;
+}
+.cell-toggle-member img{
+	width: 30%;
+}
+.cell-toggle-member p{
+	color: #244692;
+}
+.cell-toggle-member {
+	text-align: center;
+	line-height: 1.4rem;
+	font-size: 0.7rem;
+	position: absolute;
+	width: 100%;
+	background-color: #fef9ff;
+}
+.cell-toggle{
+	margin-top: 1rem;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 266px;
+}
+.cell-replace{
+	margin-bottom: 2rem;
+}
+.cell-replace h4{
+	text-align: center;
+	border: 1px solid #244692;
+	width: 50%;
+	padding: 0.6rem;
+	font-size: 0.8rem;
+	margin: 0 auto;
+	color: #244692;
+}
+.cell-left{
+	background: url(../images/cell-l.png);
+	left: 10%;
+}
+
+.cell-right{
+	right: 10%;
+	background: url(../images/cell-r.png);
+}
+.cell-left,
+.cell-right{
+	height: 1.2rem;
+	width: 1.2rem;
+	position: absolute;
+	background-size: 100% 100%;
+	top:50%;
+	margin-top: -0.6rem;
+}
+.cell-phrase p{
+	font-size: .7rem;
+	text-align: center;
+	color: #244692;
+}
+.cell-capacity,.cell-time{
+	padding: 10px 5px;
+	width: 70%;
+	margin: 36px auto;
+	border: 1px solid #244692;
+	border-radius: 10px;
+	display: flex;
+}
+.cell-capacity img{
+}
+.cell-capacity-r{
+	font-size: 0.6rem;
+	margin: 0 auto;
+}
+.cell-capacity-r p{
+	    margin-top: 6px;
+	text-align: center;
+}
+.cell-h{
+	width: 80%;
+	margin: 0 auto;
+}
+.cell-h img{
+	margin-bottom: 10px;
+}
+.cell-h p{
+	font-size: 0.6rem;
+	text-align: center;
+	color: #244692;
+}
+.cell-h2{
+	text-align: center;
+	font-size: 0.8rem;
+	color: #244692;
+	margin: 10px 0;
+}
+/*.cell-time{
+	border: 1px solid #244692;
+}*/
+.cell-order-member{
+	width: 92%;
+	margin: 15px auto;
+	background: #244692;
+	padding: 10px;
+}
+.cell-order-member select{
+	background: inherit;
+	border: none;
+	width: 100%;
+	font-size: 0.7rem;
+}
+.cell-order-member select:focus,
+.cell-order-member input:focus,
+.cell-order-address select:focus,
+.cell-order-member textarea:focus{
+	outline: 0;
+}
+.cell-order-member label{
+	font-size: 0.7rem;
+
+}
+.cell-order-member input{
+	display: inline-block;
+    width: 60%;
+    background:inherit;
+    border: none;	
+}
+.cell-order-address{
+	display: flex;
+}
+.cell-order-address >div{
+	background: #244692;
+}
+.cell-order-address {
+	width: 92%;
+	margin: 0 auto;
+	justify-content:space-between;
+}
+.order-add-0,
+.order-add-1{
+	font-size: .7rem;
+	padding: 4px;
+	width: 30%;
+	text-align: center;
+}
+.cell-order-address select{
+	background:inherit;
+	border: none;
+}
+.cell-order-member textarea{
+	width: 100%;
+	background: inherit;
+	border:none;
+	font-size: 0.7rem;	
+}
+.cell-phone-clause p{
+	display: inline-block;
+	font-size: 0.6rem;
+}
+.cell-phone-clause{
+	margin-left: 5%;
+	line-height: 15px;
+}
+.cell-phone-clause a{
+	color: #244692;
+}
+.on{
+	background:url(../images/12.png) no-repeat;
+}
+.off{
+	background:url(../images/12.1.png) no-repeat;
+}
+.select-input{
+	display: inline-block;
+	background-size: cover;
+	width: 20px;
+    height: 20px;
+}
+
+#select-checkbox{
+	opacity: 0;
+}
+.cell-footer{
+	width: 100%;
+	/*height: 100px;*/
+	border: 2px solid #244692;
+	margin-top: 20px;
+
+}
+.cell-footer-l{
+	width: 60%;
+	float: left;
+	/*height: 100%;*/
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	color: #244692;
+}
+.cell-footer-l img{
+	width: 28px;
+	height: 28px;
+	margin: 2px 10px;
+}
+.cell-footer-l a{
+	font-size: 30px;
+}
+.cell-footer-l span{
+	text-align: center;
+	display: block;
+	width: 56%;
+}
+.cell-footer-r{
+	width: 40%;
+	float: left;
+	/*height: 100%;*/
+	background: #244692;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+}
+.cell-footer >div{
+	font-size: 0.7rem;
+
+}
+/**********cell end********************/

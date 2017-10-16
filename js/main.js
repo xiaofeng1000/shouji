@@ -35,6 +35,25 @@ $(function(){
   			}
 		});
 	});
+	$('ul.fault-info-color >li').click(function(){
+		$(this).addClass('info-select').siblings().removeClass('info-select');
+	});
+	$('ul.fault-info-mes-tow >li').click(function(){
+		var price = 0;
+		$(this).toggleClass('info-tow-select');
+		for (var i = 0; i < $('ul.fault-info-mes-tow >li.info-tow-select').length; i++) {
+			price += parseInt($('ul.fault-info-mes-tow >li.info-tow-select').eq(i).data('price'));
+		}
+		$('.fault-m').find('span').text(price);
+	});
+	$('#fault-next').click(function(){
+		if ($('.info-tow-select').length == 0) {
+			alert('请选择故障信息！');
+		}else{
+			window.location.href='service_function.html';
+		}
+
+	});
 });
 
 
