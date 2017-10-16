@@ -828,6 +828,7 @@ p.link{
 	background:inherit;
 	border: none;
 	padding: 4px;
+	width: 100%;
 }
 .cell-order-member textarea{
 	width: 100%;
