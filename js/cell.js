@@ -60,9 +60,16 @@ $(function(){
       		alert('手机号不正确');
       		return;
     	}
-    	if ($('#cell-province').val() == '请选择' || $('#cell-city').val() == '请选择' || $('#cell-county').val() == '请选择') {
-    		alert('请选择地址！');
-    		return;
+    	if ($('#cell-function').val() == '1') {
+	    	if ($('#cell-province').val() == '请选择' || $('#cell-city').val() == '请选择' || $('#cell-county').val() == '请选择') {
+	    		alert('请选择地址！');
+	    		return;
+	    	}
+    	}else if($('#cell-function').val() == '2' || $('#cell-function').val() == '3'){
+    		if ($('#province').val() == '请选择' || $('#citys').val() == '请选择' || $('#county').val() == '请选择') {
+	    		alert('请选择地址！');
+	    		return;
+	    	}
     	}
 		if ($('#cell-text').val().trim() == '') {
 	 		alert('请填写详细地址');return false;
@@ -93,13 +100,12 @@ $(function(){
 	});
 	$('#cell-function').change(function(){
 		if ($(this).val() == '1') {
-
-		}else if($(this).val() == '2'){
+			$('.cell-order-portion').css('display','flex');
+			$('.cell-branch,.cell-order-text,.cell-order-all').css('display','none');
+		}else if($(this).val() == '2' || $(this).val() == '3'){
 			$('.cell-order-portion').css('display','none');
 			$('.cell-branch,.cell-order-text,.cell-order-all').css('display','flex');
 			cityAll();
-		}else if($(this).val() == '3'){
-
 		}
 	});
 });
