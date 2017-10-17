@@ -49,6 +49,7 @@ $(function(){
 	});
 	$.region();
 	$('#cell-submit').click(function(){
+
 		if ($('#name').val().trim() == '') {
 			alert('请填写姓名！');
 			return;
@@ -65,12 +66,12 @@ $(function(){
 	    		alert('请选择地址！');
 	    		return;
 	    	}
-    	}else if($('#cell-function').val() == '2' || $('#cell-function').val() == '3'){
+    	}else if($('#cell-function').val() == '2' && $('#cell-function').val() == '3'){
     		if ($('#province').val() == '请选择' || $('#citys').val() == '请选择' || $('#county').val() == '请选择') {
 	    		alert('请选择地址！');
 	    		return;
 	    	}
-	    	alert($('#cell-function').val());
+
     	}
 		if ($('#cell-text').val().trim() == '') {
 	 		alert('请填写详细地址');return false;
