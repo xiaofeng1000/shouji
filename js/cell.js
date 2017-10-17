@@ -70,6 +70,7 @@ $(function(){
 	    		alert('请选择地址！');
 	    		return;
 	    	}
+	    	alert($('#cell-function').val());
     	}
 		if ($('#cell-text').val().trim() == '') {
 	 		alert('请填写详细地址');return false;
