@@ -80,7 +80,7 @@ $(function(){
 	  		alert('详细地址太少');return false;
 		}
 		if ($('#select-checkbox').is(':checked')) {
-			window.location.href="success.html";
+			window.location.href="successd.html";
 		}else{
 			alert('请仔细阅读手机服务条款');
 			return;
