@@ -50,40 +50,41 @@ $(function(){
 	$.region();
 	$('#cell-submit').click(function(){
 
-		if ($('#name').val().trim() == '') {
-			alert('请填写姓名！');
-			return;
-		}
-		if($('#tel').val() == ''){
-      		alert('请填写手机号');
-      		return;
-    	}else if(!/^1[34578]\d{9}$/.test($('#tel').val())){
-      		alert('手机号不正确');
-      		return;
-    	}
+		// if ($('#name').val().trim() == '') {
+		// 	alert('请填写姓名！');
+		// 	return;
+		// }
+		// if($('#tel').val() == ''){
+  //     		alert('请填写手机号');
+  //     		return;
+  //   	}else if(!/^1[34578]\d{9}$/.test($('#tel').val())){
+  //     		alert('手机号不正确');
+  //     		return;
+  //   	}
     	if ($('#cell-function').val() == '1') {
 	    	if ($('#cell-province').val() == '请选择' || $('#cell-city').val() == '请选择' || $('#cell-county').val() == '请选择') {
 	    		alert('请选择地址！');
 	    		return;
 	    	}
-    	}else if($('#cell-function').val() == '2' && $('#cell-function').val() == '3'){
+    	}else if($('#cell-function').val() == '2' || $('#cell-function').val() == '3'){
+    	
     		if ($('#province').val() == '请选择' || $('#citys').val() == '请选择' || $('#county').val() == '请选择') {
 	    		alert('请选择地址！');
 	    		return;
 	    	}
 
     	}
-		if ($('#cell-text').val().trim() == '') {
-	 		alert('请填写详细地址');return false;
-		}else if($('#cell-text').val().trim().length < 5){
-	  		alert('详细地址太少');return false;
-		}
-		if ($('#select-checkbox').is(':checked')) {
-			alert('提交成功');
-		}else{
-			alert('请仔细阅读手机服务条款');
-			return;
-		}
+		// if ($('#cell-text').val().trim() == '') {
+	 // 		alert('请填写详细地址');return false;
+		// }else if($('#cell-text').val().trim().length < 5){
+	 //  		alert('详细地址太少');return false;
+		// }
+		// if ($('#select-checkbox').is(':checked')) {
+		// 	alert('提交成功');
+		// }else{
+		// 	alert('请仔细阅读手机服务条款');
+		// 	return;
+		// }
 	});
 	$('#cell-address-branch').click(function(){
 		var id = $(this).val();
