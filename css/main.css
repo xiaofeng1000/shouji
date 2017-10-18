@@ -29,6 +29,8 @@ iframe{display:block;}
 
  *@cell   			//更换手机电池页面
 
+ *@screen			//更换手机屏幕
+
  */
 /*****public start*****/
 .m-big,.fault-big,
@@ -915,6 +917,103 @@ p.link{
 }
 .cell-footer >div{
 	font-size: 0.7rem;
+}
+
+/**********cell end********************/
+/**********screen start********************/
+.screen-serve{
+	display: flex;
+	font-size: 0.2rem;
+	margin: 20px auto;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	height: 66px;
+}
+.screen-serve img{
+	width: 33px;
+}
+.screen-serve p{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.screen-serve li {
+	width: 62px;
+    position: relative;
+}
+.screen-img {
+	margin: 0 auto;
+	width: 276px;
+	margin-top: 10px;
+	text-align: center;
+}
+.screen-phrase{
+	color: #244692;
+	padding: 0 10px;
+}
+.screen-phrase h3{
+	font-size: .7rem;
+	margin: 20px 0;
+	text-align: center;
+}
+.screen-phrase p{
+	text-indent: 2em;
+	margin-top: 10px;
+	font-size: 0.4rem;
+}
+.screen-style{
+/*	display: flex;
+	justify-content: space-around;*/
+}
+.screen-box{
+	margin: 20px auto;
+    width: 271px;
+    height: 275px;
+    box-shadow: 8px 7px 7px 0px #7d4d75;
+}
+.screen-box-top1{
+	background: url(../images/0003.png) no-repeat;
+}
+
+.screen-box-top2{
+	
+	background: url(../images/0002.png) no-repeat;
+}
+.screen-box-top1,
+.screen-box-top2{
+	height: 100px;
+	width: 100%;
+	line-height: 40px;
+	background-size: cover;
+}
+.screen-box-bottom{
+	height: 175px;
+	width: 100%;
+	padding: 8px;
+	background-color: #fff;
+}
+.screen-box-top1 p,
+.screen-box-top2 p{
+	color: #fff;
+	text-align: center;
+}
+.screen-box p{
+	font-size: 0.6rem;
+}
+.screen-arc{
+	font-size: .6rem;
+	padding: 20px;
+	border: 2px solid #244692;
+	width: 90%;
+	margin: 0 auto;
 
 }
-/**********cell end********************/
+.screen-arc h3{
+	margin: 20px 0;
+}
+.screen-arc p{
+	margin-top: 10px;
+}
+/**********screen end********************/
