@@ -29,6 +29,10 @@ $(function(){
 		divs.eq(temp).animate({left:320});
 		
 	});
+	$("#top").click(function () {
+	    $("html, body").animate({scrollTop: $('#bottom').offset().top -20+ "px"}, 500);
+	    return false;
+	});
 	$('.cell-footer').find('b').text($('#cell-model').val());
 	$('#cell-model').change(function(){
 		$('.cell-footer').find('b').text($(this).val());
