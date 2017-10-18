@@ -27,9 +27,11 @@ iframe{display:block;}
 
  *@orderinfo 		//查询订单样式
 
- *@cell   			//更换手机电池页面
+ *@cell   			//更换手机电池页面样式
 
- *@screen			//更换手机屏幕
+ *@screen			//更换手机屏幕样式
+
+ *@ram 				//内存升级样式
 
  */
 /*****public start*****/
@@ -1017,3 +1019,96 @@ p.link{
 	margin-top: 10px;
 }
 /**********screen end********************/
+/**********ram start********************/
+#ram{
+	background: url(../images/ram-bg.png) no-repeat;
+	background-size: cover;
+	margin-top: -4px;
+}
+#ram >p{
+	font-size: 0.5rem;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+.ram-top{
+	padding: 10px;
+}
+.ram-top1{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+.ram-top1 p{
+	text-align: center;
+	font-size: 0.6rem;
+	color: #fff;
+	margin-top: 10px;
+}
+.ram-top1 img{
+	width: 89px;
+}
+.ram-slider-top{
+	border: 2px solid #244692;
+	width: 90%;
+	margin: 20px auto;
+}
+.ram-slider-top img{
+	margin: 15px;
+}
+.ram-slider-member p{
+	font-size: 12px;
+	color: #fff;
+	width: 80%;
+	margin: 0 auto;
+
+}
+.ram-slider-member p span{
+	margin-top: 6px;
+	height: 10px;
+	background: #244692;
+	display: block;
+	float: left;
+	border-radius: 0 3px 3px 0;
+	margin-right: 10px; 
+}
+.w60{
+	width: 60%;
+}
+.w15{
+	width: 15%;
+}
+.ram-slider-member p b:nth-child(1){
+	float: left;
+	width: 40px;
+}
+.ram-slider{
+/*	position: relative;
+	height: 224px;*/
+}
+.ram-slider-member{
+	/*position: absolute;
+	width: 100%;*/
+}
+.ram-iphone,
+.ram-ipad{
+	color: #fff;
+	width: 90%;
+	font-size: 0.5rem;
+	margin: 10px auto;
+}
+.ram-ipad table{
+    width: 72%;
+}
+.ram-iphone h3,
+.ram-ipad h3{
+	margin: 10px 0;
+}
+.ram-iphone td,
+.ram-iphone th,
+.ram-ipad td,
+.ram-ipad th{
+	border: 1px solid #fff;
+	text-align: center;
+}
+/**********ram end********************/
