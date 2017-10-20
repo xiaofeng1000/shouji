@@ -25,6 +25,8 @@ iframe{display:block;}
 
  *@succeed  		//订单成功样式
 
+ *@order 			//查询订单登录页样式
+
  *@orderinfo 		//查询订单样式
 
  *@cell   			//更换手机电池页面样式
@@ -1111,4 +1113,172 @@ p.link{
 	border: 1px solid #fff;
 	text-align: center;
 }
+.ram-up{
+    width: 70%;
+	margin: 20px auto;
+    text-align: center;
+    border: 1px solid #244692;
+    color: #fff;
+    padding: 10px 0;
+    font-size: .9rem;
+
+}
+.ram-flow{
+	font-size: .6rem;
+	color: #fff;
+    width: 265px;
+    margin: 0 auto;
+}
+.ram-flow-title{
+	display: flex;
+	justify-content: space-between;
+}
+.ram-flow-con {
+	margin-top: 10px;
+	display: none;
+}
+.ram-flow-con li{
+	display: inline-block;
+	width: 49%;
+    text-align: center;
+}
+.ram-flow-con li span,
+.ram-flow-select{
+	color: #244692;
+}
+.ram-im{
+	display: flex;
+	margin: 20px auto;
+	justify-content: space-around;
+}
+.ram-im img{
+	width: 100px;
+}
+.ram-article-box{
+	color: #fff;
+	font-size: .6rem;
+	margin: 10px 15px;
+}
+.ram-article-box li{
+	margin: 20px 0;
+}
+#ram .cell-order-member,#ram .order-add-1{
+	background-color: #fff;
+}
+#ram .cell-phone-clause p{
+	color: #fff;
+}
+#ram .cell-footer-l{
+	background-color: #fff;
+}
+.shell-model{
+	width: 80%;
+	margin: 0 auto;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+}
+.shell-model li{
+	display: inline-block;
+	width: 48%;
+	border: 1px solid #244692;
+	font-size: .8rem;
+	text-align: center;
+	padding: 13px 0;
+	margin: 10px 0;
+}
+.shell-model-select{
+	background: #244692;
+	color: #fff;
+}
+
+.shell-color{
+	width: 85%;
+	margin: 0 auto;
+}
+.shell-color li{
+	margin: 5px 5px;
+	display: inline-block;
+	font-size: .6rem;
+	color: #244692;
+}
+.shell-color-select{
+	color: #000!important;
+}
+.shell-info{
+	/*display: flex;*/
+	width: 90%;
+	margin: 20px auto;
+	background: url(../images/36.png) no-repeat;
+	height: 200px;
+	/*line-height: 100px;*/
+}
+.shell-info >div{
+    padding: 10% 0% 0 59%;
+
+}
+.shell-info img{
+	width: 25%;
+	float: left;
+	margin-left: 10%;
+}
+.shell-info p{
+	font-size: 0.6rem;
+}
 /**********ram end********************/
+/**********order start********************/
+#order{
+	background: url(../images/order-bg.png) no-repeat;
+}
+.order-title{
+	margin-top: 70px;
+	text-align: center;
+
+	
+}
+.order-title p{
+	font-size: .7rem;
+	color: #fff;
+}
+.order-box{
+	margin-top: 70px;
+	width: 80%;
+
+}
+.order-m span{
+	font-size: 0.6rem;
+}
+.order-m{
+	height: 48px;
+	border-bottom: 1px solid #ccc;
+	background-color: #fff;
+}
+.order-m img{
+	border: none;
+	width: 70px;
+    float: right;
+}
+#order-body{
+	background: initial;
+}
+.order-m input{
+
+	width: 72%;
+	font-size: 0.7rem;
+	border: none;
+	height: 100%;
+	outline: none;
+	padding-left: 10px; 
+}
+.order-submit{
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 50px;
+	background: #244692;
+	border-radius: 3px;
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	border: none;
+}
+/**********order end********************/
