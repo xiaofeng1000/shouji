@@ -1085,12 +1085,17 @@ p.link{
 	width: 40px;
 }
 .ram-slider{
-/*	position: relative;
-	height: 224px;*/
+	position: relative;
+	height: 224px;
+	overflow: hidden;
 }
 .ram-slider-member{
-	/*position: absolute;
-	width: 100%;*/
+	position: absolute;
+	width: 100%;
+	
+}
+.ram-slider-member:nth-child(2),.ram-slider-member:nth-child(3){
+	display: none;
 }
 .ram-iphone,
 .ram-ipad{
@@ -1282,3 +1287,26 @@ p.link{
 	border: none;
 }
 /**********order end********************/
+.title{
+	position: absolute;
+	z-index: 100;
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 80px;
+	color: #fff;
+
+}
+.title a{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	margin-left: 10px;
+	display: inline-block;
+
+}
+.select-a{
+	background-color: #fff;
+}
