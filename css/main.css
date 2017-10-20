@@ -181,9 +181,12 @@ footer p{
 }
 .m-footer div{
 	float: left;
-	width: 100%;
+	width: 50%;
 	text-align: center;
 	padding: 10px 0;
+}
+.index-tel{
+	width: 100%!important;
 }
 .m-footer div a{
 	color: #fff;
